@@ -6,6 +6,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;
 
+import javax.lang.model.util.Elements;
 import java.io.IOException;
 
 import static org.hamcrest.CoreMatchers.is;
