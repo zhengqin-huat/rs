@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="120c07fe-9695-47a8-9e24-041c238b1df6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Filter/jQuerygetCss.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filter/xiala2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filter/xiala2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cons/ListSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cons/ListSorterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cons/TestergodicArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cons/TestergodicArr.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,15 +23,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cons/MyLinearMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
@@ -47,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cons/TermCounterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -57,30 +44,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cons/TestergodicArr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="44" column="62" lean-forward="true" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Singleobject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="340">
+              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ShapeFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/Singleobject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="226">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-76" />
           </provider>
         </entry>
       </file>
@@ -160,14 +154,14 @@
         <option value="$PROJECT_DIR$/src/cons/MyLinearMap.java" />
         <option value="$PROJECT_DIR$/src/Filter/loca.html" />
         <option value="$PROJECT_DIR$/src/cons/TestergodicMap.java" />
-        <option value="$PROJECT_DIR$/src/cons/TestergodicArr.java" />
         <option value="$PROJECT_DIR$/src/Filter/xiala2.html" />
         <option value="$PROJECT_DIR$/src/Filter/jQuerygetCss.html" />
         <option value="$PROJECT_DIR$/src/cons/ListSorterTest.java" />
+        <option value="$PROJECT_DIR$/src/cons/TestergodicArr.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="151" />
     <option name="y" value="10" />
     <option name="width" value="919" />
@@ -196,12 +190,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cons" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Filter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -218,7 +206,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589532059101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589533627051" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -283,18 +271,18 @@
       <workItem from="1589372277004" duration="1417000" />
       <workItem from="1589452777825" duration="2809000" />
       <workItem from="1589508593367" duration="170000" />
-      <workItem from="1589510362415" duration="8361000" />
+      <workItem from="1589510362415" duration="9484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19743000" />
+    <option name="totallyTimeSpent" value="20866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20045386" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +302,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.3279483" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.17609046" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -640,10 +628,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Singleobject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cons/TermCounterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -653,15 +660,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cons/TestergodicArr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="44" column="62" lean-forward="true" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Singleobject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="340">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
         </state>
       </provider>
     </entry>
