@@ -55,4 +55,4 @@ public class TestergodicArr {
                     {
                         System.out.println(ite.next());
                     }
-}
+}}}}
