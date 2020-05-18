@@ -39,11 +39,7 @@ public class WikiParser {
     }
 
     /**
-     * Searches the paragraphs for a valid link.
-     *
-     * Warns if a paragraph ends with unbalanced parentheses.
-     *
-     * @return
+
      */
     public Element findFirstLink() {
         for (Element paragraph: paragraphs) {
@@ -59,9 +55,7 @@ public class WikiParser {
     }
 
     /**
-     * Returns the first valid link in a paragraph, or null.
-     *
-     * @param root
+
      */
     private Element findFirstLinkPara(Node root) {
         // create an Iterable that traverses the tree
@@ -85,11 +79,7 @@ public class WikiParser {
     }
 
     /**
-     * Returns the element if it is a valid link, null otherwise.
-     *
-     *
-     *
-     * @param elt
+
      */
     private Element processElement(Element elt) {
         //System.out.println(elt.tagName());
@@ -100,10 +90,7 @@ public class WikiParser {
     }
 
     /**
-     * Checks whether a link is value.
-     *
-     * @param elt
-     * @return
+
      */
     private boolean validLink(Element elt) {
         // it's no good if it's
@@ -132,11 +119,7 @@ public class WikiParser {
     }
 
     /**
-     * Checks whether a link starts with a given String.
-     *
-     * @param elt
-     * @param s
-     * @return
+
      */
     private boolean startsWith(Element elt, String s) {
         //System.out.println(elt.attr("href"));
@@ -144,10 +127,7 @@ public class WikiParser {
     }
 
     /**
-     * Checks whether the element is in parentheses (possibly nested).
-     *
-     * @param elt
-     * @return
+
      */
     private boolean isInParens(Element elt) {
         // check whether there are any parentheses on the stack
@@ -155,12 +135,7 @@ public class WikiParser {
     }
 
     /**
-     * Checks whether the element is in italics.
-     *
-     * (Either a "i" or "em" tag)
-     *
-     * @param start
-     * @return
+
      */
     private boolean isItalic(Element start) {
         // follow the parent chain until we get to null
@@ -173,9 +148,7 @@ public class WikiParser {
     }
 
     /**
-     * Processes a text node, splitting it up and checking parentheses.
-     *
-     * @param node
+
      */
     private void processTextNode(TextNode node) {
         StringTokenizer st = new StringTokenizer(node.text(), " ()", true);

@@ -42,7 +42,6 @@ public class WikiSearchTest {
     }
 
     /**
-     * Test method for {@link WikiSearch#or(WikiSearch)}.
      */
     @Test
     public void testOr() {
@@ -68,7 +67,6 @@ public class WikiSearchTest {
     }
 
     /**
-     * Test method for {@link WikiSearch#minus(WikiSearch)}.
      */
     @Test
     public void testMinus() {
@@ -81,7 +79,6 @@ public class WikiSearchTest {
     }
 
     /**
-     * Test method for {@link WikiSearch#sort()}.
      */
     @Test
     public void testSort() {

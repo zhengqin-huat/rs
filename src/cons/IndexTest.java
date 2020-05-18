@@ -24,11 +24,11 @@ public class IndexTest {
     @Test
     public void testIndexPage() throws IOException {
         // add two pages to the index
-        String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+        String url = "https://";
         Elements paragraphs = wf.readWikipedia(url);
         index.indexPage(url, paragraphs);
 
-        url = "https://en.wikipedia.org/wiki/Programming_language";
+        url = "https://";
         paragraphs = wf.readWikipedia(url);
         index.indexPage(url, paragraphs);
 

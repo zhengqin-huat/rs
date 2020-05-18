@@ -6,8 +6,7 @@ package cons;
 import java.util.*;
 
 /**
- * Implementation of a Map using a List of entries, so most
- * operations are linear time.
+
  */
 public class MyLinearMap<K, V> implements Map<K, V> {
 
@@ -48,8 +47,7 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	}
 
 	/**
-	 * Returns the entry that contains the target key, or null if there is none.
-
+	 *
 	 */
 	private Entry findEntry(Object target) {
 		// TODO: FILL THIS IN!
@@ -57,8 +55,7 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	}
 
 	/**
-	 * Compares two keys or two values, handling null correctly.
-
+	 *
 	 * @return
 	 */
 	private boolean equals(Object target, Object obj) {
@@ -137,7 +134,7 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	}
 
 	/**
-	 * @param args
+	 *
 	 */
 	public static void main(String[] args) {
 		Map<String, Integer> map = new MyLinearMap<String, Integer>();
@@ -152,12 +149,6 @@ public class MyLinearMap<K, V> implements Map<K, V> {
 	}
 
 	/**
-	 * Returns a reference to `entries`.
-	 *
-	 * This is not part of the Map interface; it is here to provide the functionality
-	 * of `entrySet` in a way that is substantially simpler than the "right" way.
-	 *
-	 * @return
 	 */
 	protected Collection<? extends Map.Entry<K, V>> getEntries() {
 		return entries;

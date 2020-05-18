@@ -1,4 +1,4 @@
-package constructor;
+package cons;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,7 +16,7 @@ public class ListLinks {
 	public static void main(String[] args) throws IOException {
 		
 		String dirname = System.getProperty("user.dir");
-		String filename = "src/resources/enwikipediaorg/wiki/Computer_science";
+		String filename = "src/";
 		String baseURI = dirname + "/" + filename;
 
 		File input = new File(baseURI);

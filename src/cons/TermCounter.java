@@ -111,7 +111,7 @@ public class TermCounter {
 	/**
 	 */
 	public static void main(String[] args) throws IOException {
-		String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+		String url = "https://";
 
 		WikiFetcher wf = new WikiFetcher();
 		Elements paragraphs = wf.fetchWikipedia(url);

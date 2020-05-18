@@ -24,9 +24,9 @@ public class WikiParserTest {
      */
     @Test
     public void testFindFirstLink1() throws IOException {
-        String url = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+        String url = "https://";
         String href = findFirstLink(url);
-        assertThat(href, is("/wiki/Programming_language"));
+        assertThat(href, is(""));
     }
 
     /**
@@ -34,13 +34,12 @@ public class WikiParserTest {
      */
     @Test
     public void testFindFirstLink2() throws IOException {
-        String url = "https://en.wikipedia.org/wiki/Mathematics";
+        String url = "";
         String href = findFirstLink(url);
-        assertThat(href, is("/wiki/Quantity"));
+        assertThat(href, is("y"));
     }
 
     /**
-     * Uses WikiParser to find the first link in the given URL.
 
      */
     private String findFirstLink(String url) throws IOException {

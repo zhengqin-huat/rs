@@ -1,4 +1,4 @@
-package constructor;
+package cons;
 
 import java.util.*;
 
@@ -109,12 +109,7 @@ public class MyArrayList<T> implements List<T> {
 		return -1;
 	}
 
-	/** Checks whether an element of the array is the target.
-	 *
-	 * Handles the special case that the target is null.
-	 *
-	 * @param target
-	 * @param object
+	/**
 	 */
 	private boolean equals(Object target, Object element) {
 		if (target == null) {
