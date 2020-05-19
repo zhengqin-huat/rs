@@ -35,7 +35,6 @@ public class SillyString {
     }
 
     /**
-     * @param args
      */
     public static void main(String[] args) {
         Map<SillyString, Integer> map = new MyBetterMap<SillyString, Integer>();
@@ -44,7 +43,6 @@ public class SillyString {
         map.put(new SillyString("Word2"), 2);
         Integer value = map.get(new SillyString("Word1"));
         System.out.println(value);
-
         for (SillyString key: map.keySet()) {
             System.out.println(key + ", " + map.get(key));
         }

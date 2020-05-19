@@ -54,7 +54,6 @@ public class WikiSearchTest {
     }
 
     /**
-
      */
     @Test
     public void testAnd() {
