@@ -1,8 +1,12 @@
- class RunnableDemo implements Runnable {
+/**
+ * thread example
+ * Runnable example
+ * */
+class RunnableDemo implements Runnable {
      private Thread t;
      private String threadName;
 
-     RunnableDemo( String name) {
+     RunnableDemo( String name ) {
          threadName = name;
          System.out.println("Creating " +  threadName );
      }
