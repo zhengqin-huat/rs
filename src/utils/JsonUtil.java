@@ -34,7 +34,7 @@ public class JsonUtil {
             for (int i = 0; i < props.length; i++) {
                 try {
                     String name = objectToJson(props[i].getName());
-                    String value = objectToJson(props[i].getReadMethod().invoke(bean));
+                    String value = objectToJson (props[i].getReadMethod().invoke(bean));
                     json.append(name);
                     json.append(":");
                     json.append(value);
