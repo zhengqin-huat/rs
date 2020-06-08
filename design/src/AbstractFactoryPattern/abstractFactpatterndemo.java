@@ -1,7 +1,7 @@
 package AbstractFactoryPattern;
 
 import fact.Shape;
-
+//抽象工厂模式
 public class abstractFactpatterndemo {
     public static void main(String[] args) {
         //获取形状工厂

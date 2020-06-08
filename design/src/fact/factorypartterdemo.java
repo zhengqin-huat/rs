@@ -1,5 +1,5 @@
 package fact;
-
+//工厂模式
 public class factorypartterdemo {
 
     public static void main(String[] arge){

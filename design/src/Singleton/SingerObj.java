@@ -1,5 +1,6 @@
 package Singleton;
 
+//  单例模式
 class SingleObj {
     private static SingleObj singerObj =new SingleObj();
 
