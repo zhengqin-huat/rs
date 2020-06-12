@@ -1,5 +1,6 @@
 package Strategy;
-
+//策略
+//模式
 public class StrategyDemo {
     public static void main(String[] args) {
         Context context = new Context(new addOp());
